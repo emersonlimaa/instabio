@@ -20,7 +20,9 @@ a{
 img{
     border-radius: 50%;
     width: 12rem;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+    border: solid 3px #a200ff;
+    box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.8);
 }
 
 p{
@@ -30,6 +32,7 @@ p{
 
 .header h1, p, span{
     font-family: "inter";
+    text-shadow: 0.1rem 0.1rem #000
 }
 
 .header span {
@@ -96,6 +99,7 @@ p{
     gap: 0.3rem;
 }
 
+
 .technologies ul li i{
     font-size: 1.8rem;
     transition: color 0.3s ease;
@@ -104,6 +108,7 @@ p{
     background-color: #46006e;
     justify-content: center;
     align-items: center;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
 .technologies ul li i:hover {
@@ -124,6 +129,7 @@ p{
     align-items: center;
     padding: 1rem;
     border-radius: 50%;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
 .contact ul li i{
