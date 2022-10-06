@@ -34,7 +34,8 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 3rem auto;
+    margin: 3rem 1.5rem;
+    padding: 1rem;
     max-width: 980px;
     position: relative;
 }
@@ -43,18 +44,20 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
 .links a {
-    width: 10rem;
-    padding: 1.5rem;
+    height: 1.6rem;
+    width: 7rem;
+    padding: 1rem;
     background-color: #500080;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     text-transform: uppercase;
+    font-family: 0.8rem;
 }
 
 .links a i{
@@ -71,7 +74,7 @@ p{
     gap: 0.3rem;
 }
 
-.technologies ul li  i{
+.technologies ul li i{
     font-size: 1.8rem;
     transition: color 0.3s ease;
     padding: 0.70rem;
@@ -88,11 +91,11 @@ p{
 .contact ul{
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     gap: 2rem;
 }
 
-.contact ul li {
+.contact ul li{
     background-color: #46006e;
     display: flex;
     justify-content: center;
@@ -102,11 +105,16 @@ p{
 }
 
 .contact ul li i{
-    font-size: 3rem;
+    font-size: 2rem;
     color: #fff;
     transition: color 0.3s ease;
 }
 
 .contact ul li i:hover{
     color: #a200ff;
+}
+
+.contact h2{
+    text-align: center;
+    margin-top: 3rem;
 }
