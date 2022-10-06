@@ -7,6 +7,7 @@
 body{
     background-color: #210031;
     color: #fff;
+    height: 100vh;
 }
 
 a{
@@ -56,7 +57,7 @@ p{
     text-transform: uppercase;
 }
 
-a i{
+.links a i{
     margin-right: 0.5rem;
     font-size: 1.3rem;
 }
@@ -66,7 +67,7 @@ a i{
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
-    color: #1f0031;
+    color: #170022;
     gap: 0.3rem;
 }
 
@@ -75,7 +76,7 @@ a i{
     transition: color 0.3s ease;
     padding: 0.70rem;
     border-radius: 50%;
-    background-color: #5e0094;
+    background-color: #46006e;
     justify-content: center;
     align-items: center;
 }
@@ -84,6 +85,28 @@ a i{
     color: #a200ff
 }
 
-footer{
-    position: absolute;
+.contact ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.contact ul li {
+    background-color: #46006e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.contact ul li i{
+    font-size: 3rem;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.contact ul li i:hover{
+    color: #a200ff;
 }
