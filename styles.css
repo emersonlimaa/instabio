@@ -7,7 +7,6 @@
 body{
     background-color: #210031;
     color: #fff;
-    height: 100vh;
 }
 
 a{
@@ -24,11 +23,16 @@ img{
 h1, p{
     font-family: "inter";
     margin-bottom: 1.4rem;
-}
-
-p{
     text-align: center;
 }
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .container {
     display: flex;
     flex-direction: column;
