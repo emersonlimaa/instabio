@@ -7,7 +7,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(45deg, #8000ca, #3c1053);
+    background: linear-gradient(135deg, #2a0042, #5f1288, #2a0042);
     color: #e6e6e6;
 }
 
@@ -32,6 +32,9 @@ p{
 
 .header h1, p, span{
     font-family: "inter";
+}
+
+.header h1, span {
     text-shadow: 0.1rem 0.1rem #000
 }
 
@@ -125,7 +128,7 @@ p{
     gap: 2rem;
 }
 
-.contact ul li{
+.contact ul li i{
     background-color: #46006e;
     display: flex;
     justify-content: center;
