@@ -18,7 +18,7 @@ body{
 
 a{
     text-decoration: none;
-    color: #e6e6e6;
+    color: #fff;
     font-family: "inter";
 }
 
@@ -36,7 +36,7 @@ p{
 }
 
 .header h1, p, span{
-    font-family: "inter";
+    font-family: "arial";
 }
 
 .header h1, span {
@@ -44,7 +44,7 @@ p{
 }
 
 .header span {
-    color: rgb(206, 206, 206);
+    color: rgb(240, 240, 240);
     font-size: 0.9rem;
     font-weight: bold;
 }
@@ -105,7 +105,7 @@ p{
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
-    color: #bdbdbd;
+    color: #fff;
     gap: 0.3rem;
 }
 
