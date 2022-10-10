@@ -10,9 +10,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #1e0030, #3c005c, #1e0030);
+    background: linear-gradient(135deg, #110026, #3c005c, #110026);
     color: #e6e6e6;
-    max-width: 720px;
     margin: 0 auto;
 }
 
@@ -66,6 +65,7 @@ p{
     margin: 3rem 1.5rem;
     padding: 1rem;
     position: relative;
+    max-width: 720px;
 }
 
 .links {
