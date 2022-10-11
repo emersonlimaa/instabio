@@ -25,7 +25,7 @@ img{
     border-radius: 50%;
     width: 8rem;
     margin-bottom: 1rem;
-    border: solid 3px #a200ff;
+    border: solid 3px #9500ff;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
 }
 
@@ -79,7 +79,7 @@ p{
     height: 1.6rem;
     width: 7rem;
     padding: 1rem;
-    background: #500080;
+    background: #5f00a3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,14 +115,14 @@ p{
     transition: color 0.3s ease;
     padding: 0.5rem;
     border-radius: 50%;
-    background-color: #46006e;
+    background-color: #5f00a3;
     justify-content: center;
     align-items: center;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 .technologies ul li > i:hover {
-    color: #9d00db
+    color: #9500ff
 }
 
 .contact ul{
@@ -133,7 +133,7 @@ p{
 }
 
 .contact ul li i{
-    background-color: #46006e;
+    background-color: #5f00a3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,10 +149,14 @@ p{
 }
 
 .contact ul li i:hover{
-    color: #9d00db;
+    color: #9500ff;
 }
 
 .contact h2{
     text-align: center;
     margin-top: 3rem;
+}
+
+.technologies ul li > i:focus {
+    color: #9500ff;
 }
