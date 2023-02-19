@@ -21,20 +21,14 @@ a{
     font-family: "inter";
 }
 
-img{
+img.profile{
     border-radius: 50%;
     width: 8rem;
-    margin-bottom: 1rem;
     border: solid 3px #9500ff;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
 }
 
-p{
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-.header h1, p, span{
+.header h1, p, span, h3{
     font-family: "arial";
 }
 
@@ -53,7 +47,6 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 1rem;
     text-align: center;
 }
 
@@ -62,9 +55,6 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 3rem 1.5rem;
-    padding: 1rem;
-    position: relative;
     max-width: 720px;
 }
 
@@ -88,7 +78,6 @@ p{
     font-family: 0.8rem;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
     transition: filter 0.4s ease;
-
 }
 
 .links a i{
@@ -100,25 +89,24 @@ p{
     filter: brightness(1.2);
 }
 
+.technologies{
+    margin-top: 1.5rem;
+}
+
 .technologies ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
-    color: #fff;
-    gap: 0.3rem;
+    gap: 0.75rem;
+    color: #9500ff;
 }
 
 
 .technologies ul li i{
-    font-size: 1.6em;
+    font-size: 1.6rem;
     transition: color 0.3s ease;
-    padding: 0.5rem;
-    border-radius: 50%;
-    background-color: #5f00a3;
     justify-content: center;
     align-items: center;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 .technologies ul li > i:hover {
@@ -157,6 +145,31 @@ p{
     margin-top: 3rem;
 }
 
-.technologies ul li > i:focus {
-    color: #9500ff;
+.card{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+    border-radius: 8px;
+    background-color: #5f00a3;
+    padding-bottom: 0.5rem;
+}
+
+.card img{
+    object-fit: contain;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.articles{
+    margin-top: 2rem;
+}
+
+.scroll-content{
+    display: flex;
+    gap: 0.5rem;
 }
