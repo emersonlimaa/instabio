@@ -9,7 +9,7 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    background: linear-gradient(135deg, #110026, #3c005c, #110026);
+    background: linear-gradient(135deg, #110026, #560085, #110026);
     color: #e6e6e6;
 }
 
@@ -138,17 +138,34 @@ img.profile{
 }
 
 .card img{
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
+    height: 7rem;
     border-radius: 8px 8px 0 0;
 }
 
-.articles{
+.text-content{
+    width: 100%;
+    height: 3rem;
+}
+
+.text-content span{
+    font-size: 10px;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
     margin-top: 2rem;
 }
 
-.scroll-content{
+.projects-content{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 0.5rem;
 }
 
