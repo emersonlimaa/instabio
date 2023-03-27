@@ -169,7 +169,7 @@ img.profile{
 
 .line{
     height: 1px;
-    width: 60%;
+    width: 80%;
     background: linear-gradient(45deg, #110026, #8000c5, #110026);
     margin: 1rem;
 }
