@@ -9,10 +9,8 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     background: linear-gradient(135deg, #110026, #3c005c, #110026);
     color: #e6e6e6;
-    margin: 0 auto;
 }
 
 a{
@@ -44,7 +42,6 @@ img.profile{
 
 .header{
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -54,8 +51,8 @@ img.profile{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     max-width: 720px;
+    margin-top: 4rem;
 }
 
 .links a:hover{
