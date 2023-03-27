@@ -26,7 +26,7 @@ img.profile{
 }
 
 .header h1, p, span, h3{
-    font-family: "arial";
+    font-family: 'helvetica', sans-serif;
 }
 
 .header h1, span {
@@ -84,6 +84,7 @@ img.profile{
     border-radius: 50%;
     background-color: #5f00a3;
     padding: .5rem;
+    box-shadow: 1px 1px 1px #000;
 }
 
 .technologies ul li > i:hover {
@@ -135,6 +136,7 @@ img.profile{
     background-color: #5f00a3;
     padding-bottom: 0.5rem;
     border: none;
+    box-shadow: 2px 2px 5px #000;
 }
 
 .card:hover{
