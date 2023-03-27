@@ -134,6 +134,11 @@ img.profile{
     border-radius: 8px;
     background-color: #5f00a3;
     padding-bottom: 0.5rem;
+    border: none;
+}
+
+.card:hover{
+    border: 1px solid #9500ff;
 }
 
 .card img{
@@ -172,4 +177,8 @@ img.profile{
     width: 80%;
     background: linear-gradient(45deg, #110026, #8000c5, #110026);
     margin: 1rem;
+}
+
+.button{
+    cursor: pointer;
 }
