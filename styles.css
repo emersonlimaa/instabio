@@ -10,6 +10,7 @@ body{
     justify-content: center;
     background: linear-gradient(135deg, #110026, #560085, #110026);
     color: #e6e6e6;
+    padding: 1rem;
 }
 
 a{
