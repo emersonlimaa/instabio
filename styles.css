@@ -5,7 +5,7 @@
 }
 
 body{
-    width: 100%;
+    max-width: 720px;
     display: flex;
     justify-content: center;
     background: linear-gradient(135deg, #110026, #560085, #110026);
