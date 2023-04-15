@@ -164,6 +164,7 @@ img.profile{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin: 1rem;
 }
 
@@ -184,4 +185,19 @@ img.profile{
 
 .button{
     cursor: pointer;
+}
+
+.text-footer{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 12px;
+}
+
+.text-footer a {
+    border-bottom: 1px solid #9500ff;
+    transition: 0.3s;
+}
+
+.text-footer a:hover {
+    color: #9500ff;
 }
